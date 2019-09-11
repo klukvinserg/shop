@@ -231,3 +231,52 @@ header .banner p {
 .inputhight {
     padding: 0.3em;
 }
+
+
+ main .imagemain .sale img {
+    width: 100%;
+    height: 100%;
+}
+
+
+main .imagemain .newlast .imagenew img {
+    width: 100%;
+    height: 100%;
+}
+
+main .imagemain .newlast .imagelast img {
+    width: 100%;
+    height: 100%;
+}
+
+main .newlast {
+    display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 5px;
+}
+
+
+@media (min-width: 600px) {
+    main .imagemain {
+    display: grid;
+       grid-template-columns: 2fr 1fr;
+       grid-gap: 5px;
+}
+     main .newlast {
+    display: flex; flex-direction: column;
+
+}
+}
+
+#subscribe {
+background-color: var(--background-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
