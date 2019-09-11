@@ -263,7 +263,8 @@ main .newlast {
        grid-gap: 5px;
 }
      main .newlast {
-    display: flex; flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 }
@@ -282,6 +283,12 @@ background-color: black;
     text-align: center;
     font-size: 1rem;
     color: white;
+}
+
+footer .social {
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 
 
