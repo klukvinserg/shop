@@ -5,9 +5,62 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/contact.css">
+        <link rel="icon" type="image/ico" href="img/favicon.ico">
     </head>
     <body>
+        <header>
+            <nav>
+                <div class=topline>
+                    <div class="menulinetop">
+                        <ul class="menutop">
+                            <li>
+                                <a href="index.html">Про нас</a>
+                            </li>
+                            <li>
+                                <a href="index.html">Доставка</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="formsearch">
+                        <form>
+                            <div>
+                                <p>
+                                    <input type="search" name="q" class="inputhight" placeholder="Що вас цікавить?">
+                                    <input type="submit" value="Пошук" class="button">
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="menumain">
+                    <div class="logobackground">
+                        <a href="index.html">
+                            <div class="logomain">thebestshop</div>
+                            <div class="logounder">одягайся легко</div>
+                        </a>
+                    </div>
+                    <div class="menuline">
+                        <ul class="menu">
+                            <li>
+                                <a href="index.html">Для жінок</a>
+                            </li>
+                            <li>
+                                <a href="index.html">Для чоловіків</a>
+                            </li>
+                            <li>
+                                <a href="index.html">Для дітей</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <main>
             <div>
                 <h2>thebestshop</h2>
@@ -18,7 +71,7 @@
 
                 </p>
             </div>
-            <div>
+            <div class="forms">
                 <h2>Напишіть нам:</h2>
                 <form method="POST" action="https://formspree.io/klukvin@ukr.net">
                     <label>
@@ -34,10 +87,39 @@
                     </label>
                     <br>
                     <label>
-                        <input type="submit" value="ВІДПРАВИТИ">
+                        <input type="submit" class="send" value="ВІДПРАВИТИ">
                     </label>
                 </form>
             </div>
         </main>
+        <footer>
+            <div class="social">
+                <div class="textsearch">
+                    <p>Шукайте нас на:</p>
+                </div>
+                <div class="iconf">
+                    <a href="https://uk-ua.facebook.com/">
+                        <img src="png/facebook.png" alt="icon-facebook" width="40" height="40">
+                    </a>
+                </div>
+                <div class="iconi">
+                    <a href="https://www.instagram.com/">
+                        <img src="png/instagram.png" alt="icon-instagram" width="40" height="40">
+                    </a>
+                </div>
+                <div class="icony">
+                    <a href="https://www.youtube.com/">
+                        <img src="png/youtube.png" alt="icon-youtube" width="40" height="40">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <p class="footerdown">2019 Всі права захищено</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
+
